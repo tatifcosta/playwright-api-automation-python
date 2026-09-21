@@ -69,10 +69,14 @@ def login():
             properties:
               email:
                 type: string
-                example: qa@example.com
+                format: email
+                example: usuario@example.com
+                description: Email do usuário cadastrado 
               password:
                 type: string
-                example: "123456"
+                format: password
+                example: "********"
+                description: Senha do usuário
     responses:
       200:
         description: Login realizado com sucesso
