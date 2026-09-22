@@ -74,6 +74,8 @@ def create_app():
 
         "headers": [],
 
+        "title": "Bug API",
+
         "openapi": "3.0.2",
 
         "specs": [
